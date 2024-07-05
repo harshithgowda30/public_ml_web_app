@@ -13,9 +13,9 @@ st.set_page_config(page_title="Health Assistant",
 working_dir = os.path.dirname(os.path.abspath(__file__))
 
 # Construct the paths for each model
-diabetes_model_path = 'F:/project/diabetes_model.sav'
-heart_disease_model_path = 'F:/project/heart_disease_model.sav'
-parkinsons_model_path = 'F:/project/parkinsons_model.sav'
+diabetes_model_path = 'F:/mdps project/diabetes_model.sav'
+heart_disease_model_path = 'F:/mdps project/heart_disease_model.sav'
+parkinsons_model_path = 'F:/mdps project/parkinsons_model.sav'
 
 # Load the diabetes model
 diabetes_model = pickle.load(open(diabetes_model_path, 'rb'))
